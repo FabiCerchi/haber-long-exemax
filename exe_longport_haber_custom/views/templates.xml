@@ -112,7 +112,7 @@
 							<span t-field="o.employee_id.name" />
 						</td>
 						<td colspan="1" style="border-right:.5px solid black;border-bottom:.5px solid black;border-top:.5px solid black;">
-							<span t-field="o.employee_id.id" />
+							<span t-field="o.employee_id.employee_file" />
 						</td>
 						<td colspan="3" style="border-right:.5px solid black;border-bottom:.5px solid black;border-top:.5px solid black;">
 							<span t-field="o.employee_id.ssnid" />
@@ -148,7 +148,7 @@
 							<span t-field="o.employee_id.service_hire_date" />
 						</td>
 						<td colspan="1" style="border-right:.5px solid black;border-bottom:.5px solid black;border-top:.5px solid black;">
-							<span t-field="o.employee_id.service_start_date" />
+							<span t-field="o.employee_id.service_termination_date" />
 						</td>
 						<td colspan="3" style="border-right:.5px solid black;border-bottom:.5px solid black;border-top:.5px solid black;">
 							<t t-if="o.contract_id.aplica_cct">
